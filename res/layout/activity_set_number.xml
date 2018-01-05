@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.swapnali.a.sendlocation.SetNumberActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contacts"
+        android:background="#f0000f"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add 3 numbers for energency"/>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtcontact1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact 1 :"/>
+        <TextView
+            android:id="@+id/contact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/txtcontact1"
+            android:layout_toRightOf="@+id/txtcontact1" />
+
+   <TextView
+       android:id="@+id/add1"
+       android:layout_alignParentRight="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Add"
+       android:textColor="#00f"
+       />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtcontact2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact 2 :"/>
+        <TextView
+            android:id="@+id/contact2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/txtcontact2"
+            android:layout_toRightOf="@+id/txtcontact2" />
+
+        <TextView
+            android:id="@+id/add2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#00f"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtcontact3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact 3 :"/>
+        <TextView
+            android:id="@+id/contact3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/txtcontact3"
+            android:layout_toRightOf="@+id/txtcontact3" />
+
+        <TextView
+            android:id="@+id/add3"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#00f"
+            />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/saveNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="80dp"
+        android:background="#0ff"/>
+
+</LinearLayout>
